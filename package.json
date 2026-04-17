@@ -1,0 +1,26 @@
+{
+  "name": "bubble-labs-backend",
+  "version": "1.0.0",
+  "description": "Backend de sincronização para Notion e Google Sheets",
+  "main": "backend_sync.js",
+  "scripts": {
+    "start": "node backend_sync.js",
+    "dev": "nodemon backend_sync.js"
+  },
+  "keywords": [
+    "notion",
+    "google-sheets",
+    "sync",
+    "bubble-labs"
+  ],
+  "author": "Bubble Labs",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
